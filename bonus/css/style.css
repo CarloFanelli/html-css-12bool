@@ -1,21 +1,50 @@
-
-.col{
+.col {
     max-width: 1rem;
     aspect-ratio: 1;
     border: 0.2px solid grey;
 }
-.row{
+
+.row {
     justify-content: center;
+}
+/* .top{
+    display: flex;
+} */
+.top {
+
+    .bg-light {
+        background-color: yellow;
     }
-.bg-light{
-    background-color: yellow;
+
+    .bg-dark {
+        background-color: orange;
+    }
+
+    .color-1 {
+        background-color: black;
+    }
+
+    .color-2 {
+        background-color: white;
+    }
 }
-.bg-dark{
-    background-color: orange;
-}
-.color-1{
-    background-color: black;
-}
-.color-2{
-    background-color: white;
+.bottom {
+    .row{
+        flex-direction: row-reverse;
+    }
+    .bg-light {
+        background-color: orange;
+    }
+
+    .bg-dark {
+        background-color: yellow;
+    }
+
+    .color-1 {
+        background-color: white;
+    }
+
+    .color-2 {
+        background-color: black;
+    }
 }
