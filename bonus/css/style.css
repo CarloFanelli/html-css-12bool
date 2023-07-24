@@ -33,11 +33,11 @@
         flex-direction: row-reverse;
     }
     .bg-light {
-        background-color: orange;
+        background-color: yellow;
     }
 
     .bg-dark {
-        background-color: yellow;
+        background-color: orange;
     }
 
     .color-1 {
