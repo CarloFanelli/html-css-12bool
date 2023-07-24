@@ -1,0 +1,21 @@
+
+.col{
+    max-width: 1rem;
+    aspect-ratio: 1;
+    border: 0.2px solid grey;
+}
+.row{
+    justify-content: center;
+    }
+.bg-light{
+    background-color: yellow;
+}
+.bg-dark{
+    background-color: orange;
+}
+.color-1{
+    background-color: black;
+}
+.color-2{
+    background-color: white;
+}
