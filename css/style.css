@@ -1,5 +1,10 @@
 
 /* debug */
+
+[class*="-offset-"]{
+    background-color: transparent;
+}
+
 [class*="col-"]{
     min-height: 2rem;
     background-color: blue;
@@ -12,9 +17,7 @@
     font-size:0.8rem;
 }
 
-[class*="col-offset-"]{
-    background-color: transparent;
-}
+
 
 
 [class*="col-"]>[class*="col-"]{
