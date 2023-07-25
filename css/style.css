@@ -1,11 +1,7 @@
 
 /* debug */
 
-[class*="-offset-"]{
-    background-color: transparent;
-}
-
-[class*="col-"]{
+[class*="col"]{
     min-height: 2rem;
     background-color: blue;
     color: white;
